@@ -1,0 +1,30 @@
+{
+  "name": "spork",
+  "version": "0.0.1",
+  "description": "A pool of forks. For when you need it.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --reporter spec test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Attamusc/spork.git"
+  },
+  "keywords": [
+    "spork",
+    "fork",
+    "pool"
+  ],
+  "author": "Sean Dunn <sean@attamusc.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Attamusc/spork/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0",
+    "chai": "~1.8.1"
+  }
+}
