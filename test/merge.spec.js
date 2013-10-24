@@ -14,6 +14,12 @@ describe('merge', function() {
     expect(merge(objA, objB)).to.deep.equal(composite);
   });
 
+  it('ignores non-objects passed in', function() {
+    var objA = { a: 'one', b: 'two' };
+
+    expect(merge(objA, undefined)).to.deep.equal(objA);
+  });
+
   describe('when called with objects that have the same keys', function() {
     it('returns a composite with keys overridden in the order passed', function() {
       var objA = { a: 'one', b: 'two' },
