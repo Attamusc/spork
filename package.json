@@ -1,6 +1,6 @@
 {
   "name": "be-spork",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A pool of forks. For when you need it.",
   "main": "index.js",
   "directories": {
