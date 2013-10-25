@@ -1,6 +1,6 @@
 {
   "name": "be-spork",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A pool of forks. For when you need it.",
   "main": "index.js",
   "directories": {
@@ -22,6 +22,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Attamusc/spork/issues"
+  },
+  "dependencies": {
+    "generic-pool": "~2.0.4"
   },
   "devDependencies": {
     "mocha": "~1.13.0",
