@@ -1,1 +1,3 @@
-process.send(null);
+process.on('message', function(data) {
+  process.send('pong');
+});
