@@ -16,7 +16,6 @@ describe('merge', function() {
 
   it('ignores non-objects passed in', function() {
     var objA = { a: 'one', b: 'two' };
-    objA.a = expect.
 
     expect(merge(objA, undefined)).to.deep.equal(objA);
   });
